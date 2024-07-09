@@ -13,7 +13,7 @@ export async function GET() {
         },
         {
             question: 'question # 2',
-            questionType: 'multiple',
+            questionType: 'single',
             correctAnswer: 1,
             answers: [
                 {name: 'answer 1'},
@@ -22,7 +22,7 @@ export async function GET() {
             ]
         },{
             question: 'question # 3',
-            questionType: 'multiple',
+            questionType: 'voice',
             correctAnswer: 1,
             answers: [
                 {name: 'answer 1'},
@@ -40,7 +40,7 @@ export async function GET() {
             ]
         },{
             question: 'question # 5',
-            questionType: 'multiple',
+            questionType: 'single',
             correctAnswer: 1,
             answers: [
                 {name: 'answer 1'},
@@ -49,7 +49,7 @@ export async function GET() {
             ]
         },{
             question: 'question # 6',
-            questionType: 'multiple',
+            questionType: 'voice',
             correctAnswer: 1,
             answers: [
                 {name: 'answer 1'},
@@ -58,7 +58,7 @@ export async function GET() {
             ]
         },{
             question: 'question # 7',
-            questionType: 'multiple',
+            questionType: 'single',
             correctAnswer: 1,
             answers: [
                 {name: 'answer 1'},
